@@ -32,8 +32,8 @@ function splitIntoDistricts(tributes) {
 			tribute2: item[1],
 		};
 	});
-	console.log(tributes);
 
+	console.log("line 36", tributes);
 	return tributes;
 }
 
@@ -53,6 +53,6 @@ module.exports = {
 		msg.channel.send(formatted);
 		msg.channel.send("Let the NMP Hunger Games begin! :bird:");
 
-		return tributes = splitIntoDistricts(tributes);
+		return splitIntoDistricts(tributes);
 	},
 };

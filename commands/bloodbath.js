@@ -6,7 +6,7 @@ module.exports = {
 			"As the tributes stand on their podiums, the horn sounds. :postal_horn:"
 		);
 
-    console.table(args)
-    msg.channel.send(tributes)
+    console.table(tributes)
+    // msg.channel.send(tributes)
 	},
 };
